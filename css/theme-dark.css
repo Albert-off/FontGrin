@@ -1,0 +1,34 @@
+body {
+    /*background: #f0f2f7;*/
+    background: #141414;
+    color: #fff;
+}
+
+.box {
+    background: rgba(225,225,225,0.12);
+    border: 2px solid rgb(25, 25, 25);
+    box-shadow: rgb(0, 0, 0) 3px 3px 6px 0px inset, 
+    rgb(0 0 0 / 50%) -3px -3px 6px 1px inset;
+}
+
+.col {
+    background: rgba(225,225,225,0.12);
+    border: 2px solid rgb(25, 25, 25);
+    box-shadow: rgb(0, 0, 0) 3px 3px 6px 0px inset, 
+    rgb(0 0 0 / 50%) -3px -3px 6px 1px inset;
+}
+
+.copy_link_mess {
+    border: 2px solid #666;
+    background: #333;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px;
+}
+
+.changeTheme[data-theme="dark"] {
+    display: none;
+}
+
+.changeTheme[data-theme="light"] {
+    display: block;
+}
