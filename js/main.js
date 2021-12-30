@@ -13,7 +13,7 @@ jQuery(document).ready(function($){
     document.execCommand("copy");
     $temp.remove();
     $('.copy_link_mess').fadeIn(400);
-    setTimeout(function(){$('.copy_link_mess').fadeOut(400);},5000);
+    setTimeout(function(){$('.copy_link_mess').fadeOut(400);},1000);
     });
 });
 
