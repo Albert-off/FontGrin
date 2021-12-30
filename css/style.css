@@ -122,6 +122,14 @@ body {
     background: rgba(225,225,225,0.12);
     cursor: pointer;
     transition: .3s all;
+
+    font-family: HelveticaNeue-Light,-apple-system,AppleColorEmoji,
+    'Arial Rounded MT Bold',system-ui,Ubuntu,sans-serif,
+    'Arial Unicode MS','Zapf Dingbats','Segoe UI Emoji',
+    'Segoe UI Symbol',Noto Color Emoji, 
+    NotoColorEmoji,EmojiSymbols,Symbola,Noto,
+    'Android Emoji',AndroidEmoji,'lucida grande',
+    tahoma,verdana,arial,AppleColorEmoji,'Apple Color Emoji'!important;
 }
 
 
@@ -167,6 +175,7 @@ body {
     z-index: 99;
     top: 23px;
     left: 50%;
+    /*margin-left: -152px;*/
     margin-left: -157px;
     display: none;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px;
@@ -183,4 +192,8 @@ body {
         font-size: 1.6rem;
         margin-left: -113.5px;
     }
+}
+
+.sz {
+    font-size: 1.3rem;
 }
