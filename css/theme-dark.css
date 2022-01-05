@@ -4,6 +4,13 @@ body {
     color: #fff;
 }
 
+@media screen and (display-mode: standalone)
+{
+    header {
+        background: #141414;
+    }
+}
+
 .box {
     background: rgba(225,225,225,0.12);
     border: 2px solid rgb(25, 25, 25);
