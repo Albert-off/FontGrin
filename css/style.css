@@ -24,6 +24,7 @@ body {
         top: 0;
         z-index: 9999;
         /*height: 20px;*/
+        background: #141414;
         width: 100%;
     }
     
@@ -141,13 +142,13 @@ body {
     cursor: pointer;
     transition: .3s all;
 
-    /*font-family: HelveticaNeue-Light,-apple-system,AppleColorEmoji,
+    font-family: HelveticaNeue-Light,-apple-system,AppleColorEmoji,
     'Arial Rounded MT Bold',system-ui,Ubuntu,sans-serif,
     'Arial Unicode MS','Zapf Dingbats','Segoe UI Emoji',
     'Segoe UI Symbol',Noto Color Emoji, 
     NotoColorEmoji,EmojiSymbols,Symbola,Noto,
     'Android Emoji',AndroidEmoji,'lucida grande',
-    tahoma,verdana,arial,AppleColorEmoji,'Apple Color Emoji'!important;*/
+    tahoma,verdana,arial,AppleColorEmoji,'Apple Color Emoji'!important;
     font-family: 'SF Pro Display', sans-serif;
 }
 
@@ -213,6 +214,6 @@ body {
     }
 }
 
-/*.sz {
+.sz {
     font-size: 1.3rem;
-}*/
+}
