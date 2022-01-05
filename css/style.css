@@ -23,7 +23,7 @@ body {
         left: 0;
         top: 0;
         z-index: 9999;
-        height: 20px;
+        height: 16px;
         background: #141414;
         width: 100%;
     }
@@ -35,7 +35,7 @@ body {
 }
 
 .empty {
-    margin: 20px;
+    margin: 12px;
 }
 
 .container {
