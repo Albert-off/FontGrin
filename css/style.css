@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display'); /*SF Pro | font-family: 'SF Pro Display', sans-serif; */
 
 * {
     margin: 0px;
@@ -13,6 +14,23 @@ body {
     /*font-family: 'Roboto', sans-serif;*/
     font-family: 'San Francisco', Helvetica, Arial, san-serif;
     transition: .3s all;
+}
+
+@media screen and (display-mode: standalone)
+{
+    header {
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 9999;
+        /*height: 20px;*/
+        width: 100%;
+    }
+    
+    .empty {
+        padding-top: 1px;
+        margin: 16px;
+    }
 }
 
 .empty {
@@ -123,13 +141,14 @@ body {
     cursor: pointer;
     transition: .3s all;
 
-    font-family: HelveticaNeue-Light,-apple-system,AppleColorEmoji,
+    /*font-family: HelveticaNeue-Light,-apple-system,AppleColorEmoji,
     'Arial Rounded MT Bold',system-ui,Ubuntu,sans-serif,
     'Arial Unicode MS','Zapf Dingbats','Segoe UI Emoji',
     'Segoe UI Symbol',Noto Color Emoji, 
     NotoColorEmoji,EmojiSymbols,Symbola,Noto,
     'Android Emoji',AndroidEmoji,'lucida grande',
-    tahoma,verdana,arial,AppleColorEmoji,'Apple Color Emoji'!important;
+    tahoma,verdana,arial,AppleColorEmoji,'Apple Color Emoji'!important;*/
+    font-family: 'SF Pro Display', sans-serif;
 }
 
 
@@ -194,6 +213,6 @@ body {
     }
 }
 
-.sz {
-    font-size: 1rem;
-}
+/*.sz {
+    font-size: 1.3rem;
+}*/
