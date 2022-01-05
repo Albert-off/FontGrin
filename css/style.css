@@ -23,14 +23,14 @@ body {
         left: 0;
         top: 0;
         z-index: 9999;
-        /*height: 20px;*/
+        height: 20px;
         background: #141414;
         width: 100%;
     }
     
     .empty {
         padding-top: 1px;
-        margin: 16px;
+        margin: 10px;
     }
 }
 
@@ -149,7 +149,7 @@ body {
     NotoColorEmoji,EmojiSymbols,Symbola,Noto,
     'Android Emoji',AndroidEmoji,'lucida grande',
     tahoma,verdana,arial,AppleColorEmoji,'Apple Color Emoji'!important;
-    font-family: 'SF Pro Display', sans-serif;
+    /*font-family: 'SF Pro Display', sans-serif;*/
 }
 
 
