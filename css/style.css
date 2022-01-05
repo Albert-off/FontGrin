@@ -16,14 +16,15 @@ body {
     transition: .3s all;
 }
 
-@media screen and (display-mode: standalone)
+@media screen and (display-mode: standalone) and (orientation: portrait)
 {
     header {
+        display: block;
         position: fixed;
         left: 0;
         top: 0;
         z-index: 9999;
-        height: 16px;
+        height: 18px;
         background: #141414;
         width: 100%;
     }
@@ -31,6 +32,13 @@ body {
     .empty {
         padding-top: 1px;
         margin: 8px;
+    }
+}
+
+@media (orientation: landscape) 
+{
+    header {
+        display: none;
     }
 }
 
